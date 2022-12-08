@@ -1,3 +1,24 @@
-h1 {
-    color: pink;
+* {
+    font-family:
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: #1d355d;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.bg-dark .py-5 {
+    background-image: url(/media/BOGIE%20LUZ.mp4);
+}
+
+.navbar-light {
+    background-color: red;
 }
