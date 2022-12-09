@@ -19,6 +19,34 @@
     background-image: url(/media/BOGIE%20LUZ.mp4);
 }
 
-.navbar-light {
-    background-color: red;
+.singleline {
+    font-size: 1em;
+}
+
+@media (min-width: 768px) {
+    .singleline {
+        font-size: 1.5em;
+    }
+}
+
+.respiro {
+    padding: 50px 0;
+}
+
+.desde {
+    font-size: 4em;
+}
+
+.relacionados {
+    max-width: 200px;
+}
+
+.relacionados:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+.footer {
+    background-color: rgb(14, 26, 47);
+    color: white;
 }
