@@ -50,3 +50,21 @@
     background-color: rgb(14, 26, 47);
     color: white;
 }
+
+.navbar-footer {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.1em;
+}
+
+.sitios {
+    color: #1D355D;
+    font-weight: bold;
+}
+
+.text-blue {
+    color: #1D355D;
+}
