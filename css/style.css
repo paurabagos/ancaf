@@ -171,3 +171,18 @@ section#contact form#contactForm :-ms-input-placeholder {
 .tablainput select {
     border: none;
 }
+
+.text-justify {
+    text-align: justify;
+}
+
+.wave {
+    background: url(../media/wave.svg) center no-repeat;
+    height: 100%;
+}
+
+.logo-talleres {
+    height: 100px;
+    width: auto;
+    text-align: left;
+}
