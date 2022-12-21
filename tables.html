@@ -13,6 +13,7 @@
         body {
             font-family: 'Montserrat', sans-serif;
         }
+
     </style>
 
     <!--favicon-->
@@ -84,11 +85,11 @@
             <div class="row gx-5">
                 <div class="col-lg-8">
                     <div>
-                        <h1 class="fw-bolder text-blue mb-2">Tablas Outage</h1>
+                        <h1 class="fw-bolder text-blue mb-2">Outage Tables</h1>
                         <form action="/tablas/" method="get" name="frmCar" class="tablaoutage px-3 py-5">
                             <div class="d-flex align-items-baseline">
                                 <div>
-                                    <p class="lead">Iniciales de carro</p>
+                                    <p class="lead">Car initials</p>
                                 </div>
                                 <div class="tablainput ms-2">
                                     <select name="Iniciales" size="1" id="iniciales2" class="valign btn dropdown-toggle">
@@ -110,7 +111,7 @@
                             </div>
                             <div class="d-flex align-items-baseline">
                                 <div>
-                                    <p class="lead">Número de carro</p>
+                                    <p class="lead">Car number</p>
                                 </div>
                                 <div class="ms-2">
                                     <input type="text" id="numero" size="10" maxlength="6" name="Numcar">
@@ -121,7 +122,7 @@
                                     <input type="button" class="btn btn-outline-dark btn-lg px-4" name="Submit" id="enviar" value="Enter" onclick="javascript:valida();">
                                 </div>
                                 <div class="mx-3">
-                                    <input type="reset" class="btn btn-outline-dark btn-lg px-4" value="Borrar">
+                                    <input type="reset" class="btn btn-outline-dark btn-lg px-4" value="Delete">
                                 </div>
                             </div>
                             <script language="JavaScript">
@@ -2240,6 +2241,7 @@
                                     }
                                     window.open(url);
                                 }
+
                             </script>
                         </form>
                     </div>
@@ -2297,4 +2299,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body></html>
+</body>
+
+</html>
