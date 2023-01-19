@@ -190,3 +190,9 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: auto;
     text-align: left;
 }
+
+@media (min-width: 992px) {
+    .repairshop {
+        height: 900px;
+    }
+}
